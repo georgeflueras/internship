@@ -1,0 +1,96 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background:-webkit-linear-gradient(left, rgb(33, 165, 62), rgb(31, 180, 168));
+}
+
+.container{
+    width: 300px;    
+    background-color: rgba(255, 255, 255, 0.966);
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    padding-bottom : 50px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 2em;
+    color: rgb(41, 50, 81);
+}
+
+.notification{
+    background-color: rgb(248, 215, 218);
+    display: none;
+}
+
+.notification p{
+    color: rgb(143, 21, 34);
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: rgb(43, 52, 87);
+    font-size: 4em;
+    text-align: center;
+}
+
+.temperature-value span{
+    color: rgb(40, 50, 87);
+    font-size: 0.5em;
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: rgb(43, 52, 83);
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: rgb(43, 52, 85);
+    text-align: center;
+    font-size: 1em;
+}

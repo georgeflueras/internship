@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+html, body {
+}
+
+.container{
+  position: absolute;
+  padding-top: 15%;
+  padding-left:900px;
+  margin: 30px;
+  color:whitesmoke;
+  font-family: 'Montserrat';
+}
+
+#score, #score2{
+  font-size: 2em;
+}
+canvas{
+  border:5px olive solid;
+  margin: 30px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.section-dark{
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 0 60px 70px rgba(0,0,0,0.5);
+}
